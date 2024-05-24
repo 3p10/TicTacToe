@@ -15,6 +15,7 @@ public class GameActivity extends AppCompatActivity {
     private int[][] board = new int[3][3];
     private TextView statusTextView;
     private GridLayout gridLayout;
+    private static final int DELAY_MILLIS = 3000; // 3 seconds delay
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -97,5 +98,16 @@ public class GameActivity extends AppCompatActivity {
         for (int i = 0; i < gridLayout.getChildCount(); i++) {
             gridLayout.getChildAt(i).setEnabled(false);
         }
+    }
+
+    private void endGame() {
+        disableButtons();
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                startActivity(new Intent(GameActivity.this, MainActivity.class));
+                finish();
+            }
+        }, DELAY_MILLIS);
     }
 }
