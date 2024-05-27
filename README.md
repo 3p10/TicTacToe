@@ -61,3 +61,10 @@ git clone https://github.com/3p10/TicTacToe-App
 - Click the "Start Game" button on the home screen to begin a new game.
 - Play the game by clicking on the grid buttons. The game will indicate whose turn it is.
 - Once the game ends, the result (win or draw) will be displayed, and after a short delay, it will return to the home screen.
+
+### Video of project running
+
+https://github.com/3p10/TicTacToe-App/assets/121188912/0b479d67-8610-4ddc-b0ff-9f30db832bcf
+
+YouTube link:
+https://www.youtube.com/watch?v=dNkmcr8bxA8
