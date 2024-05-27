@@ -2,7 +2,7 @@
 
 This `README.md` provides an overview of the project, installation and setup instructions, usage guidelines, and other relevant information for anyone who wants to use or contribute to the project.
 
-A simple Tic-Tac-Toe game for Android implemented in Java using Android Studio.
+A Tic-Tac-Toe game for Android implemented in Java using Android Studio.
 
 ## Features
 
